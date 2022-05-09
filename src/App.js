@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <h2>Wheather App</h2>
       <h3>{weather.name}, {weather.sys?.country}</h3>
-      <img src={`http://openweathermap.org/img/wn/${weather. weather?.[0].icon}@2x.png`} alt="" />
+      <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
       <p>{weather.weather?.[0].description} </p>
       <p> <b> Came From: </b>{weather.wind?.deg}°</p>
       <p> <b> Speed: </b>{weather.wind?.speed} <small> Km/h</small></p>
